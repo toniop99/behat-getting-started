@@ -1,0 +1,24 @@
+{
+    "name": "antonio.hernandez/behat",
+    "authors": [
+        {
+            "name": "Antonio Hernández Sierra",
+            "email": "granviamurcia2@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "behat/behat": "^3.11",
+        "phpunit/phpunit": "^9.5"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "features/"
+        }
+    }
+}

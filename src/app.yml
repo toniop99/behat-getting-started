@@ -1,0 +1,6 @@
+app:
+  suites:
+    basket:
+      paths: [ src/cart/features ]
+      contexts:
+        - Tests\bootstrap\BasketContext
